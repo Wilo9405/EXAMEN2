@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .comida {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+  }
+  
+  .comida div {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .comida span {
+    font-weight: bold;
+  }
+  
+  .gustado {
+    background-color: #d4edda;
+  }
+  
+  .no-gustado {
+    background-color: #f8d7da;
+  }
+  
+  button.gustado {
+    background-color: #28a745;
+  }
+  
+  button.no-gustado {
+    background-color: #dc3545;
+  }
+  
+  button.gustado:hover {
+    background-color: #218838;
+  }
+  
+  button.no-gustado:hover {
+    background-color: #c82333;
+  }
+  
